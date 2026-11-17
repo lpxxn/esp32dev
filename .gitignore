@@ -1,0 +1,63 @@
+# .vscode 需要保留：c_cpp_properties.json、launch.json、settings.json
+
+# macOS / Windows
+.DS_Store
+.AppleDouble
+.LSOverride
+.directory
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 编辑器临时文件
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.user
+*.suo
+
+# 日志
+*.log
+
+# ESP-IDF 编译输出
+**/build/
+*.o
+*.a
+*.bin
+*.elf
+*.map
+*.out
+*.exe
+flasher_args.json
+sdkconfig.old
+
+# 组件管理器下载的依赖
+managed_components/
+**/components/.idf/
+.espressif/
+
+# CMake 生成文件（通常在 build/ 里，这里再挡一层）
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+compile_commands.json
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+dist/
+venv/
+.venv/
+env/
+
+# 语言服务器缓存
+.clangd/
+.ccls-cache/
+.cache/
